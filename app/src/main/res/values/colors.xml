@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#455AC0</color>
+    <color name="colorPrimaryDark">#1B2149</color>
+    <color name="colorAccent">#B9C9ED</color>
+
+    <color name="colorBlueSky">#DEE6F4</color>
+    <color name="BluePrimary">#32487B</color>
+    <color name="fontBlueDark">#1B2149</color>
+    <color name="greyPrimary">#EFEFEF</color>
+    <color name="descColor">#B9B6DD</color>
+    <color name="descGroupTitle">#4545C0</color>
+    <color name="profileGroupTitle">#5472B6</color>
+</resources>

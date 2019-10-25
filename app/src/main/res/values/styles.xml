@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="TextContent" parent="TextAppearance.AppCompat">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="TextContent.item">
+        <item name="android:fontFamily">@font/mregular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/greyPrimary</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="TextContent.descGroupTitle">
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:fontFamily">@font/mregular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/descGroupTitle</item>
+    </style>
+
+    <style name="TextContent.descGroupDetail">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:fontFamily">@font/mmedium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextContent.position">
+        <item name="android:fontFamily">@font/mmedium</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="TextContent.profileGroupTitle">
+        <item name="android:fontFamily">@font/mregular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/profileGroupTitle</item>
+    </style>
+
+    <style name="TextContent.profileGroupDetail">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:fontFamily">@font/mmedium</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+</resources>

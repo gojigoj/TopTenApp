@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".AboutActivity">
+
+    <View
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:alpha="0.1"
+        android:layout_height="710dp"
+        android:background="@drawable/bgdetail"
+        />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:elevation="0dp">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorAccent"
+            android:elevation="0dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_page"
+                android:fontFamily="@font/mmedium"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"/>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="155dp"
+                android:layout_height="155dp"
+                android:layout_marginTop="45dp"
+                android:src="@color/colorPrimaryDark"
+                android:layout_centerHorizontal="true"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_profile_picture"
+                android:layout_width="145dp"
+                android:layout_height="145dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_picture" />
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_below="@+id/iv_profile_picture"
+                android:text="@string/profile_name"
+                android:textSize="26sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/msemibold"
+                android:layout_centerInParent="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/tv_username"
+                android:layout_marginTop="47dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp">
+
+                <TextView
+                    style="@style/TextContent.profileGroupTitle"
+                    android:text="@string/profile_title_name"/>
+
+                <TextView
+                    style="@style/TextContent.profileGroupDetail"
+                    android:text="@string/name"/>
+
+                <TextView
+                    style="@style/TextContent.profileGroupTitle"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/profile_title_email"/>
+
+                <TextView
+                    style="@style/TextContent.profileGroupDetail"
+                    android:text="@string/email"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

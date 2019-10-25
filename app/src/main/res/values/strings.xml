@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TopTenApp</string>
+    <string name="app_title">Top Ten</string>
+    <string name="topten_prolang">Programming Languanges</string>
+    <string name="topten_date">October 2019</string>
+    <string name="no_top">10</string>
+    <string name="name_top">Visual Basic .Net</string>
+    <string name="rating_top">16.884%</string>
+    <string name="title_detail">Java</string>
+    <string name="desc_title">Java is a general-purpose programming language that is class-based, object-oriented (although not a pure object-oriented language, as it contains primitive types), and designed to have as few implementation dependencies as possible.</string>
+    <string name="desc_position">Position</string>
+    <string name="month_now">Oct 2019</string>
+    <string name="position_now">#1</string>
+    <string name="month_then">Oct 2018</string>
+    <string name="position_then">#1</string>
+    <string name="desc_rating">Rating</string>
+    <string name="rating_now">16.884%</string>
+    <string name="desc_change">Change</string>
+    <string name="change_now">-0.92%</string>
+    <string name="desc_designed">Designed by</string>
+    <string name="designer">James Gosling</string>
+    <string name="desc_developer">Developer</string>
+    <string name="developer">Sun Microsystems</string>
+    <string name="desc_released">Released</string>
+    <string name="released">May 23, 1995</string>
+    <string name="profile_name">Goji</string>
+    <string name="profile_title_name">Nama</string>
+    <string name="name">Ghazi Ahmad Fadhlullah</string>
+    <string name="profile_title_email">Email</string>
+    <string name="email">goj0lortukeran@gmail.com</string>
+    <string name="detail_page">Detail Page</string>
+    <string name="about_page">About Page</string>
+</resources>
